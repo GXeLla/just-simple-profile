@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xela's Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <h1 class="name">Name</h1>
+        <h2 class="id">Id</h2>
+        <p class="Bio">this is bio</p>
+        <div class="hello1">
+            <div class="Followers">Followers</div>
+            <div class="Following">Following</div>
+            <div class="Repos">Repos</div>
+        </div>
+
+        <div class="locations">
+      <div class="location">sanfrancisco</div>
+       <div class="twitter">twitter</div>
+       <div class="gitlink">github link</div>
+       <div class="agithub">agithub</div>
+    </div>
+
+       <div class="jointime">jointime</div>
+    </div>
+</div>
+<div class="searchBox">
+
+    <input class="searchInput"type="text" name="" placeholder="Search For Git Profile...">
+    <button class="searchButton" href="#">
+        <i class="material-icons">
+            Search
+        </i>
+    </button>
+</div>
+<img class="imgg" src="./photos/s.jpg" alt="imgg">
+<button class="darklight" onclick="myFunction()">Button</button>
+
+<script>
+    function myFunction(){
+        var element = document.body;
+        element.classList.toggle("light-mode");
+
+    }
+</script>
+
+</body>
+</html>
